@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Speedometer Outer Gauge Background Ring -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M30,68 A28,28 0 1,1 78,68"
+        android:strokeWidth="6"
+        android:strokeColor="#334155"
+        android:strokeLineCap="round" />
+
+    <!-- Active Speedometer Gauge Arc (Cyan) -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M30,68 A28,28 0 1,1 74,48"
+        android:strokeWidth="6"
+        android:strokeColor="#38BDF8"
+        android:strokeLineCap="round" />
+
+    <!-- Dial Scale Ticks -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M32,60 L36,58 M38,44 L42,45 M54,36 L54,41 M70,44 L66,45 M76,60 L72,58"
+        android:strokeWidth="2.5"
+        android:strokeColor="#94A3B8"
+        android:strokeLineCap="round" />
+
+    <!-- Center Pivot Hub -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,58m-5,0a5,5 0 1,0 10,0a5,5 0 1,0 -10,0" />
+
+    <!-- Speedometer Needle Pointer (Vibrant Orange) -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,58 L71,39"
+        android:strokeWidth="4"
+        android:strokeColor="#FF9800"
+        android:strokeLineCap="round" />
+
+    <!-- Download Arrow (Green) -->
+    <path
+        android:fillColor="#4ADE80"
+        android:pathData="M41,75 l-5,-5 h3 v-6 h4 v6 h3 z" />
+
+    <!-- Upload Arrow (Blue) -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M67,64 l5,5 h-3 v6 h-4 v-6 h-3 z" />
+
+</vector>
